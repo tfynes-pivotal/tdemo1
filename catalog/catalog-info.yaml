@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: tdemo1
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tdemo1"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tdemo"
 spec:
   type: service
   lifecycle: experimental
