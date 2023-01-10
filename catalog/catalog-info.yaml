@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tdemo1
+  name: tdemo1tests
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tdemo1"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tdemo1tests"
 spec:
   type: service
   lifecycle: experimental
