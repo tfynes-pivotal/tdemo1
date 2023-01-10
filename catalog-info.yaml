@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tdemo1
+  name: tdemo1tests
   annotations:
     github.com/project-slug: tfynes-pivotal/tdemo1
 spec:
