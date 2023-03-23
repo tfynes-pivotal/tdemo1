@@ -2,10 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: tdemo1
+  description: tanzu hello world demo 1
+  tags:
+    - v1alpha1
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tdemo1tests"
-    github.com/project-slug: tfynes-pivotal/tdemo1
+    #github.com/project-slug: tfynes-pivotal/tdemo1
 spec:
   type: service
-  lifecycle: unknown
+  lifecycle: production
   owner: default-org
+  system: unknown
