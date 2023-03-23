@@ -4,6 +4,7 @@ metadata:
   name: tdemo1
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tdemo1tests"
+    github.com/project-slug: tfynes-pivotal/tdemo1
 spec:
   type: service
   lifecycle: unknown
