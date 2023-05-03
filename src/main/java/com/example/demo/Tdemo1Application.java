@@ -18,4 +18,12 @@ public class Tdemo1Application {
 		System.out.println("hello tanzu!");
 		return "hello tanzu!\n";
 	}
+
+	@RequestMapping("/foo")
+	public String foo() {
+		String retVal = "foo.";
+		System.out.println(retVal);
+		return "foo\n";
+	}
+	
 }

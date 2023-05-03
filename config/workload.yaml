@@ -1,10 +1,11 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: tdemo
+  name: tdemo1
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: tdemo
+    app.kubernetes.io/part-of: tdemo1
+  
 spec:
   source:
     git:
