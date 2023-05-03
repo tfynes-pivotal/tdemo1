@@ -15,15 +15,8 @@ public class Tdemo1Application {
 
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("hello tanzu!");
-		return "hello tanzu!\n";
+		System.out.println("hello tanzu");
+		return "hello tanzu\n";
 	}
-
-	@RequestMapping("/foo")
-	public String foo() {
-		String retVal = "foo.";
-		System.out.println(retVal);
-		return "foo\n";
-	}
-	
+		
 }

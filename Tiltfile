@@ -24,3 +24,5 @@ k8s_resource('tdemo1', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'tdemo1'}])
 allow_k8s_contexts('kind-ktap')
 allow_k8s_contexts('tmfaks')
+allow_k8s_contexts('tmfaks2')
+allow_k8s_contexts('tmfaks3')
