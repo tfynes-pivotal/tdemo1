@@ -15,8 +15,9 @@ public class Tdemo1Application {
 
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("hello tanzu");
-		return "hello tanzu\n";
+		String response = "hello tanzu";
+		System.out.println(response);
+		return response + "\n";
 	}
 		
 }
