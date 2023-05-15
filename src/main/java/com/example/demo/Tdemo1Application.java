@@ -15,7 +15,8 @@ public class Tdemo1Application {
 
 	@RequestMapping("/")
 	public String index() {
-		String response = "hello tanzu";
+		String foo = System.getenv("foo");
+		String response = "hello tanzu" + foo;
 		System.out.println(response);
 		return response + "\n";
 	}
