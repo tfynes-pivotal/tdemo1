@@ -7,6 +7,9 @@ metadata:
     app.kubernetes.io/part-of: tdemo1
   
 spec:
+  env:
+    - name: message
+      value: tanzu
   source:
     git:
       url: https://github.com/tfynes-pivotal/tdemo1
