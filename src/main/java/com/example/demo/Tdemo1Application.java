@@ -19,7 +19,7 @@ public class Tdemo1Application {
 		if (message == null) {
 			message = "";
 		}
-		String response = "hello " + message;
+		String response = message;
 		System.out.println(response);
 		return response + "\n";
 	}
